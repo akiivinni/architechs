@@ -1,0 +1,235 @@
+* { 
+    
+    margin: 0; 
+    
+        padding: 0; 
+    } 
+    
+    .navbar { 
+        display: flex; 
+    
+   
+        position: sticky; 
+        align-items: center; 
+        justify-content: center; 
+        top: 0px; 
+       
+        cursor: pointer; 
+    } 
+    
+    .nav-list { 
+        width: 50%; 
+        display: flex; 
+    } 
+    
+    .nav-list li { 
+        list-style: none; 
+        padding: 26px 30px; 
+    } 
+    
+    .nav-list li a { 
+        text-decoration: none; 
+        color: white; 
+       
+    } 
+    .nav-list  a :active
+
+        {
+            background-color:green;
+        }
+    
+    .nav-list li a:hover { 
+        color: black; 
+    } 
+    
+    .rightNav { 
+        width: 50%; 
+        text-align: right; 
+    } 
+    
+    #search { 
+        padding: 5px; 
+        font-size: 17px; 
+        border: 2px solid grey; 
+        border-radius: 9px; 
+    } 
+    
+  .background
+  {
+    background-color: blue;
+  }
+   body ,html
+   {
+    height:100%;
+    margin:0;
+
+   }
+   .herobanner
+   {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./architect.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+   
+   
+   }
+   h1
+   {
+    text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+   }
+   span
+   {
+    font-size: 30px;
+    color:brown;
+    font-weight: bold;
+    background-color: black;
+   }
+   .border
+   {
+    border-color:#f1f1f1!important;
+    padding-top: 16px!important;
+    padding-bottom: 16px!important;
+    border-bottom: 1px solid #ccc!important;
+    font-size:20px;
+   }
+   .container {
+    margin: 3%;
+    position: relative;
+    display:inline-block;
+}
+
+
+.text-container {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    resize: 18rem;
+    top: 0px;
+    background-color: rgb(41, 41, 41, 0.8);
+    padding: 0 1rem;
+}
+.border11
+{
+    border-color:black!important;
+    padding-top: 16px!important;
+    padding-bottom: 16px!important;
+    border-bottom: 1px solid black!important;
+    font-size:20px;
+
+}
+p
+{
+    text-align: center justify;
+    text-decoration: none;
+    margin:20px;
+
+    
+}
+img
+{
+    vertical-align: middle;
+    border-style: none;
+}
+.w3-opacity
+{
+    opacity: 0.60;
+    box-sizing: inherit;
+}
+
+.w3-light-grey
+{
+    color: #000!important;
+    background-color: #f1f1f1!important;
+}
+.w3-block {
+    display: block;
+    width: 60%;
+}
+.w3-btn, .w3-button
+{
+    padding: 8px 16px;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.con
+{
+    display:inline-block;
+}
+.xyz
+{
+    width:100%;
+    padding:8px;
+    display:block;
+    overflow:visible;
+    display: block;
+}
+#c6
+{
+    margin-left: 20px;
+}
+  
+#c5
+{
+    width:15%;
+    padding-top: 22px!important;
+    padding-bottom: 12px!important;
+    background-color: #000;
+    color: #f1f1f1;
+    font-size: 18px;
+    font-weight: bold;
+
+   
+       
+}
+.w3-image {
+    max-width: 100%;
+    height: auto;
+}
+img {
+    vertical-align: middle;
+}
+img {
+    border-style: none;
+}
+* ,*:before, *:after {
+    box-sizing: inherit;
+}
+user agent stylesheet
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+footer
+{
+    background-color: #000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.foot,a
+{
+    color:aliceblue;
+    background-color: inherit;
+
+}
+#s
+{
+    text-align: center;
+    text-decoration: none;
+}
+#c
+{
+    text-align: right;
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+}
